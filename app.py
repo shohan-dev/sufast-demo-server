@@ -9,4 +9,4 @@ def hello():
 def hello():
     return {"message": "Hello from shohan Buddy 👋"}
 
-app.run() 
+app.run(production=True) 
